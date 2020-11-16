@@ -18,7 +18,7 @@ echo "Hello $FULLNAME, Welcome to bash Scripting"
 # SIMPLE IF STATEMENT
 LASTNAME="boudguigue"
 if [ "$LASTNAME" == "boudguigue" ]; then
-    echo "Keep Going imad"
+    echo "Keep lerning imad"
 fi
 
 #  IF-ELSE
@@ -95,7 +95,7 @@ esac
 
 # SIMPLE FOR LOOP
 
-NAMES="Brad Youssef mariam lina warda imad"
+NAMES="Brad Youssef mariam lina sara imad"
 for NAME in $NAMES; do
     echo "Salam $NAME"
 done
@@ -125,3 +125,8 @@ greet "imad bouguigue" "29"
 touch "readme.md"
 echo "Hello world From Temara, Morocco" >>"readme.md"
 echo "readme.md was Created"
+
+#  Create app.js 
+touch "app.js"
+echo "console.log('hello world')" >>"app.js"
+echo "app.js was Created"
