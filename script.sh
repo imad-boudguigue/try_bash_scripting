@@ -1,7 +1,7 @@
-#! /usr/bin/bash
+#! /bin/bash
 
 # echo COMMAND
-echo hello world!
+echo 'hello world!'
 
 # VARIABLES
 # Uppercase by convention
@@ -126,7 +126,7 @@ touch "readme.md"
 echo "Hello world From Temara, Morocco" >>"readme.md"
 echo "readme.md was Created"
 
-#  Create app.js 
+#  Create app.js
 touch "app.js"
 echo "console.log('hello world')" >>"app.js"
 echo "app.js was Created"
